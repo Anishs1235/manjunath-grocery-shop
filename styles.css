@@ -1,0 +1,329 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#logo{
+  height: 100px;
+  width: 430px;
+  background-image: url(manjunath.png);
+  box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+  border-radius: 40px;
+}
+
+#navbar{
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;color: aliceblue;
+  background-color: black;
+}
+
+#abc{
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 40px;
+}
+
+#ne{
+  height: 105px;
+background-color: rgb(83, 158, 232);
+padding-left: 90px;
+display: flex;
+}
+
+#con{
+height: 35px;
+width: 90px; 
+border-radius: 20px;
+background-color: antiquewhite; 
+font-weight: 700;
+font-size: 19px;
+}
+
+a{
+  font-size: 32px;
+font-weight: 500;
+text-decoration: none;
+color: aliceblue;
+
+}
+
+#items {
+  display: flex;
+  width: 1450px;
+  flex-wrap: wrap;
+  margin: 50px;
+background-image: url(bac.avif);
+background-size: cover;  
+}
+
+#soaps{
+  height: 250px;
+  width: 250px;
+  background-image: url(soaps.jpeg);
+  background-size: cover;
+border-radius: 20px;
+margin: 50px;
+border: 1px solid black;
+box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+}
+
+
+
+#biscuits{
+  height: 250px;
+  width: 250px;
+  background-image: url(buistcuits.webp);
+  background-size: cover;
+border-radius: 20px;
+margin: 50px;
+border: 1px solid black;
+box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+}
+
+
+#grains{
+  height: 250px;
+  width: 250px;
+  background-image: url(grains.jpg);
+  background-size: cover;
+border-radius: 20px;
+margin: 50px;
+border: 1px solid black;
+box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+}
+
+#dresssoaps{
+  height: 250px;
+  width: 250px;
+  background-image: url(dress\ soap.jpg);
+  background-size: cover;
+border-radius: 20px;
+margin: 50px;
+border: 1px solid black;
+box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+}
+
+.ani{
+  font-size: 25px;
+}
+#soappowders{
+  height: 250px;
+  width: 250px;
+  background-image: url(soap\ powders.jpg);
+  background-size: cover;
+border-radius: 20px;
+margin: 50px;
+border: 1px solid black;
+box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+}
+
+#dryfruits{
+  height: 250px;
+  width: 250px;
+  background-image: url(dry\ fruits.jpg);
+  background-size: cover;
+border-radius: 20px;
+margin: 50px;
+border: 1px solid black;
+box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+
+}
+
+#toothpastes{
+  height: 250px;
+  width: 250px;
+  background-image: url(toothpastes.jpg);
+  background-size: cover;
+border-radius: 20px;
+margin: 50px;
+border: 1px solid black;
+box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+}
+
+#agarbatti{
+  height: 250px;
+  width: 250px;
+  background-image: url(agarbatti.jpg);
+  background-size: cover;
+border-radius: 20px;
+margin: 50px;
+border: 1px solid black;
+box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+
+}
+
+
+#opt{
+  height: 35px;
+  width: 100px;
+  background-color: rgb(217, 43, 232);
+  font-size: 20px;
+  margin-left: 100px;
+  font-weight: 600;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 6px;
+}
+
+
+
+
+
+
+
+@media (max-width:400px) {
+  #logo{
+    height: 35px;
+    border-radius: 15px;
+    width: 190px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-image: url(manjunath.png);
+  background-size: cover;
+  padding: 4px;
+  }
+  
+  #navbar{
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #abc{
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+  #ne{
+    height: 50px;
+background-color: rgb(83, 158, 232);
+padding-left: 10px;
+padding-top: 8px;
+  }
+
+  .ani{
+    font-size: 12px;
+  }
+  #con{
+    height: 25px;
+    width: 74px; 
+    border-radius: 20px;
+    background-color: antiquewhite; 
+    font-weight: 700;
+    font-size: 10px;
+    }
+  a{
+    font-size: 18px;
+    color: aliceblue;
+  font-weight: 300;
+  }
+
+  #items {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 30px;
+    background-color: rgb(154, 200, 235);
+    justify-content: center;
+    border-radius: 20px;
+  }
+  
+  #soaps{
+    height: 190px;
+    width: 190px;
+    background-image: url(soaps.jpeg);
+    background-size: cover;
+  border-radius: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+  }
+  
+  
+  
+  #biscuits{
+    height: 190px;
+    width: 190px;
+    background-image: url(buistcuits.webp);
+    background-size: cover;
+  border-radius: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+  }
+
+ 
+  #grains{
+    height: 190px;
+    width: 190px;
+    background-image: url(grains.jpg);
+    background-size: cover;
+  border-radius: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+  }
+  
+  #dresssoaps{
+    height: 190px;
+    width: 190px;
+    background-image: url(dress\ soap.jpg);
+    background-size: cover;
+  border-radius: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+  }
+
+  #soappowders{
+    height: 190px;
+    width: 190px;
+    background-image: url(soap\ powders.jpg);
+    background-size: cover;
+  border-radius: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+  }
+  
+  #dryfruits{
+    height: 190px;
+    width: 190px;
+    background-image: url(dry\ fruits.jpg);
+    background-size: cover;
+  border-radius: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+  
+  }
+  
+  #toothpastes{
+    height: 190px;
+    width: 190px;
+    background-image: url(toothpastes.jpg);
+    background-size: cover;
+  border-radius: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+  }
+  
+  #agarbatti{
+    height: 190px;
+    width: 190px;
+    background-image: url(agarbatti.jpg);
+    background-size: cover;
+  border-radius: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  box-shadow: 0 40px 60px rgba(10, 5, 10, 0.5);
+  
+  }
+ 
+  
+
+}
